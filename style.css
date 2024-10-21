@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Montserrat', 'Yeseva One';
+    margin: 0;
+    padding: 0;
+    background-color: #041821;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #041821;
+    font-size: 24px;
+}
+
+header .div p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+header .div1 i {
+    color: white;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+#Hello h1 {
+    font-size: 50px;
+    margin: 40px 0 0 40px;
+}
+
+#vert {
+    color: #1bd79e;
+}
+
+#ptsvert {
+    color: #1bd79e;
+}
+
+.div1 h5 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 40px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.titres {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.titres h3 {
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.source {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+}
+
+.image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #041821;
+    margin-top: 20px;
+}
